@@ -1,0 +1,16 @@
+services:
+  backend:
+    build:
+        context: backend/.
+    ports:
+      - "8000:8000"
+    environment:
+      - FLAG=CTFkom{test}
+
+  frontend:
+    build:
+        context: frontend/.
+    ports:
+      - "8080:80"
+    environment:
+      - REACT_APP_BACKEND_IP=localhost:8000
