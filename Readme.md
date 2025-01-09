@@ -8,6 +8,9 @@ Easy
 ### Categories:
 Web
 
+### Source handout:
+No
+
 ## Gravedigger
 Gravedigger is a challenge where you are required to find the backend of the website and automate "digging the graves". It is halloween themed.
 
